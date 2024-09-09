@@ -1,6 +1,5 @@
 const { createPublicClient, http, parseAbi } = require('viem');
 const { mainnet } = require('viem/chains');
-const { ethers } = require('ethers');
 
 const client = createPublicClient({
     chain: mainnet,
